@@ -1,0 +1,17 @@
+{
+  "name": "quiver2bookmarks",
+  "version": "1.0.0",
+  "description": "Converts all the text cell web links in a quiver library to a Netscape bookmarks file that is importable to Chrome, Safari, Firefox, and other browsers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mvx24",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.4.2",
+    "cheerio": "^0.19.0",
+    "netscape-bookmarks": "0.0.0",
+    "follow-redirects": "0.0.7"
+  }
+}
