@@ -1,13 +1,30 @@
 {
   "name": "quiver2bookmarks",
   "version": "1.0.0",
+  "homepage": "https://github.com/mvx24/quiver2bookmark",
   "description": "Converts all the text cell web links in a quiver library to a Netscape bookmarks file that is importable to Chrome, Safari, Firefox, and other browsers.",
-  "main": "index.js",
+  "author": "mvx24",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mvx24/quiver2bookmark"
+  },
+  "bugs": {
+    "url": "https://github.com/mvx24/quiver2bookmark/issues"
+  },
+
+  "main": "./index.js",
+  "preferGlobal": true,
+  "bin": {
+    "quiver2bookmark": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "mvx24",
-  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+
   "dependencies": {
     "async": "^1.4.2",
     "cheerio": "^0.19.0",

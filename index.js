@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var path = require('path');
 var fs = require('fs');
 var http = require('follow-redirects').http;
