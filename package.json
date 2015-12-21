@@ -5,10 +5,7 @@
   "description": "Converts all the text cell web links in a quiver library to a Netscape bookmarks file that is importable to Chrome, Safari, Firefox, and other browsers.",
   "author": "mvx24",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mvx24/quiver2bookmark"
-  },
+  "repository": "mvx24/quiver2bookmark",
   "bugs": {
     "url": "https://github.com/mvx24/quiver2bookmark/issues"
   },
